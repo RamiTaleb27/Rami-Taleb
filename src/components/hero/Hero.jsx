@@ -1,5 +1,5 @@
 import React from "react";
-import  heroImg  from '../../assets/images/hero-img.png';
+import  heroImg  from '../../assets/images/profile-hero.png';
 import  styles  from './HeroStyles.module.css';
 import  sun  from "../../assets/images/sun.svg";
 import  moon  from "../../assets/images/moon.svg";
@@ -34,17 +34,17 @@ export const Hero = () => {
         <h1>Rami Taleb</h1>
         <h2>Frontend Developer</h2>
         <div className={styles.social}>
-                <a  href="#">
+                <a  href="https://x.com/RamiTaleb15">
                   <img src={twitterIcon} alt='twitter' />
                   </a>
                 <a  href="https://github.com/RamiTaleb27">
                   <img src={githubIcon} alt='github' />
                   </a>
-                <a  href="#">
+                <a  href="www.linkedin.com/in/rami-taleb-7494a4240">
                   <img src={linkedinIcon} alt='linkedin' />
                   </a>
         </div>
-      <p className={styles.desc}>with passion for developing modern react web apps for commercial businesses</p>
+      <p className={styles.desc}>with passion for developing modern react web apps for commercial businesses.</p>
       <a href={CV} download>
         <button className="hover" >Resume</button>
       </a>

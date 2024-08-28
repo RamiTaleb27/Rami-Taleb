@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from '../components/Projects/Projects.module.css'
-import viberr from '../assets/images/viberr.png'
-import hipsster from '../assets/images/hipsster.png'
-import fitlift from '../assets/images/fitlift.png'
+import leon from '../assets/images/leon.png'
+import TanatousStudio from '../assets/images/—Pngtree—design graphic tool software web_4297501.png'
+import virtualR from '../assets/images/VR_Logo_Virtual_Reality_Logo.svg.png'
 export const ProjectCard = () => {
     const projectsCards = [
-        {src:viberr, title:"Vibeer" , desc:"Streaming app" , href:"#",alt:"viberr pic"},
-        {src:hipsster, title:"Vibeer" , desc:"Streaming app" , href:"#",alt:"viberr pic"},
-        {src:fitlift, title:"Vibeer" , desc:"Streaming app" , href:"#",alt:"viberr pic"}
+        {src:leon, title:"Leon" , desc:" Super Creative Agency Web Template" , href:"https://ramitaleb27.github.io/Leon-Landing-Page/",alt:"Leon pic"},
+        {src:TanatousStudio, title:"TanatousStudio" , desc:"Design Company" , href:"https://ramitaleb27.github.io/TanatousStudio-LandingPage/",alt:"Studio pic"},
+        {src:virtualR, title:"VirtualR" , desc:"Virual Reality app company" , href:"#",alt:"Virtual pic"}
     ];
   return (
     <>
