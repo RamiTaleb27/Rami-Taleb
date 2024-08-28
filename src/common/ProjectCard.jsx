@@ -7,7 +7,7 @@ export const ProjectCard = () => {
     const projectsCards = [
         {src:leon, title:"Leon" , desc:" Super Creative Agency Web Template" , href:"https://ramitaleb27.github.io/Leon-Landing-Page/",alt:"Leon pic"},
         {src:TanatousStudio, title:"TanatousStudio" , desc:"Design Company" , href:"https://ramitaleb27.github.io/TanatousStudio-LandingPage/",alt:"Studio pic"},
-        {src:virtualR, title:"VirtualR" , desc:"Virual Reality app company" , href:"#",alt:"Virtual pic"}
+        {src:virtualR, title:"VirtualR" , desc:"Virual Reality app company" , href:"https://main--virtualr-app.netlify.app/",alt:"Virtual pic"}
     ];
   return (
     <>
