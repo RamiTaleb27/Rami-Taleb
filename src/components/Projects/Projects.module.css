@@ -27,6 +27,9 @@
     display: flex;
     justify-content: space-around;
 }
+.projectsDesc{
+    max-width: 21ch;
+}
 @media(width >= 800px){
     .projects_container{
         flex-direction: row;
